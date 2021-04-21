@@ -1,0 +1,33 @@
+body{
+    text-align: center;
+    background-image: url("background.jpg");
+    font-size: larger;
+}
+.h11{
+    font-size: large;
+}
+.deve{
+position: fixed;
+bottom: 0;
+background-color: cornflowerblue;
+color: cornsilk;
+}
+canvas{
+    border: rgb(255, 69, 106) solid;
+    margin-top: 100;
+    animation-name: Krisha;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    
+    border-radius: 10px;
+    border-width: 7px;
+    
+}
+@keyframes Krisha{
+    from{
+        box-shadow: 3px 3px 50px darkorchid;
+    }
+    to{
+        box-shadow: 3px 3px 50px deepskyblue;
+    }
+}
